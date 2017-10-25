@@ -2,14 +2,6 @@
 	box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'wreathhalftoneregular';
-    src: url('fonts/wreathhalftoneregular-webfont.woff2') format('woff2'),
-         url('fonts/wreathhalftoneregular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
 	font-family: 'avenir', sans-serif;
 	color: #384047;
@@ -26,7 +18,7 @@ header {
   width: 100%;
 	height: 100vh;
   background:linear-gradient(120deg, transparent, rgba(0,0,0,.8)),
-						url(img/path.jpg);
+						url(img/path-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -41,7 +33,7 @@ header {
 }
 
 h1 {
-	font-family: wreathhalftoneregular;
+	font-family: 'Satisfy', cursive;
 	font-size: 3em;
   margin: 0 60px;
 	letter-spacing: .08em;
@@ -108,7 +100,7 @@ button {
   justify-content: center
 }
 
-.rel:hover {
+.icon:hover {
 	box-shadow: 0 0 20px rgba(255,255,255,0.6)
 }
 
@@ -188,28 +180,28 @@ h1 {
 	}
 
 .lion {
-	background: url(https://static.pexels.com/photos/259468/pexels-photo-259468.jpeg);
+	background: url(img/lion-min.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: left;
 }
 
 .laptop {
-	background: url(https://static.pexels.com/photos/461077/pexels-photo-461077.jpeg);
+	background: url(img/working-min.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: left;
 }
 
 .coding {
-	background: url(https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg);
+	background: url(img/coding-min.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right;
 }
 
 .hobbies {
-	background: url(https://static.pexels.com/photos/110149/pexels-photo-110149.jpeg);
+	background: url(img/knitting-min.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right;
