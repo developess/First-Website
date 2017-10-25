@@ -100,10 +100,6 @@ button {
   justify-content: center
 }
 
-.icon:hover {
-	box-shadow: 0 0 20px rgba(255,255,255,0.6)
-}
-
 footer {
 	margin-top: 90px;
 	padding: 60px 150px 80px;
@@ -218,4 +214,16 @@ footer {
 	border-bottom: 2px solid white;
 }
 
+.git-repo {
+	text-align: center;
+}
+
+.git-repo a {
+	color: white;
+	border-bottom: 2px white solid;
+}
+
+.git-repo a:hover {
+	color: lightskyblue;
+	border-bottom: lightskyblue 2px solid;
 }
