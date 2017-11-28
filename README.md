@@ -10,9 +10,9 @@ This is my first, published project on GitHub so _be kind to me please!_
 
 In this project I've used: 
 * HTML _(obvs)_.
-* Pure CSS, including Flexbox (and floats, because I'm old school. _read: I haven't mastered grid layout._)
+* Pure CSS, including Flexbox (and floats, because I'm old school. _Read: I haven't mastered grid layout._)
 * A tiny dusting of JavaScript.
-* Mobile first Development Practices.
+* Mobile-first responsive web design.
 
 If you want to see more JavaScript from me, check out my calculator project [here](https://github.com/developess/calculator).
 
