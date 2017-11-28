@@ -107,7 +107,25 @@ footer {
 	width: 100%;
 }
 
-@media (min-width: 700px) {
+.git-repo {
+	text-align: center;
+}
+
+.git-repo a {
+	color: white;
+	border-bottom: 2px white solid;
+}
+
+.git-repo a:hover {
+	color: lightskyblue;
+	border-bottom: lightskyblue 2px solid;
+}
+
+@media (min-width: 842px) {
+
+.FAC {
+	display: none;
+}
 
 h1 {
 		font-size: 4em;
@@ -214,16 +232,12 @@ footer {
 	border-bottom: 2px solid white;
 }
 
-.git-repo {
-	text-align: center;
 }
 
-.git-repo a {
-	color: white;
-	border-bottom: 2px white solid;
+@media (min-width: 1072px) {
+
+.FAC {
+	display: block;
 }
 
-.git-repo a:hover {
-	color: lightskyblue;
-	border-bottom: lightskyblue 2px solid;
 }
