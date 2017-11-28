@@ -5,7 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 </head>
 <body>
-
+<div id="page">
 <header>
   <div class="landing">
     <h1 id="journey">My Coding Journey</h1>
@@ -30,10 +30,16 @@
       <img alt="Work icon" src="icons/briefcase.png">
       <p><span>2016 - Present</span> After university I got a job in finance, and
         for 2 years have been building highly elaborate spreadsheets.</p>
-      <p>The best function I have written in excel is one that returns multiple
+      <p>One of the best functions I have written in excel is one that returns multiple
         matches, output into consecutive cells, without using an array formula.
+        A fragment can be seen below.
      </p>
-     <button>See the code</button>
+     <button id="button">See the code</button>
+    </div>
+    <div id="tog" class="mod-cont">
+      <div id="codal">
+        <img alt="photo of excel formula" src=img/excel.jpg id="excelimg"><img>
+      </div>
     </div>
   </div>
   <div class="blocks-container">
@@ -51,9 +57,11 @@
     <div class="block L hobbies"><img></div>
     <div class="Hobbies text-section">
       <img alt="star icon" src="icons/puzzle.png">
+      <p>As long as I can remember, I've wanted to make things. Origami, knitting,
+        dressmaking, woodwork, painting, flower arranging, lino-printing and modelling
+         were all creative phases of mine growing up.</p>
       <p>Before I started spending all of my free time coding and reading cool
-        articles about tech, I enjoyed cooking, crafting, looking at photos of
-        cute dogs and going for walks.</p>
+        articles about tech, I also enjoyed cooking, crafting, cuddling animals and going for walks.</p>
       <p>I still do that sometimes.</p>
     </div>
   </div>
@@ -82,4 +90,6 @@
     </div>
     <p class="git-repo">To read the code behind this site on GitHub, <a href="https://github.com/developess/developess.github.io" target="_blank">click here.</a></p>
   </footer>
+</div>
+  <script src="app.js"></script>
 </body>

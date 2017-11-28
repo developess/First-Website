@@ -1,3 +1,8 @@
+
+/*==========================
+			  Base Styles
+===========================*/
+
 * {
 	box-sizing: border-box;
 }
@@ -46,6 +51,10 @@ h2 {
 	margin-top: 50px;
 	letter-spacing: .5em;
 }
+
+/*==========================
+	 		Small screen layout
+===========================*/
 
 .text-section {
   background: linear-gradient(70deg, dodgerblue, lightskyblue);
@@ -121,6 +130,31 @@ footer {
 	border-bottom: lightskyblue 2px solid;
 }
 
+/*==========================
+			Modulus Styles
+===========================*/
+
+/*  inactive styles  */
+
+.mod-cont {
+	display: none;
+}
+
+/*  active styles  */
+
+.mod-cont-active {
+	display: inline-block;
+	z-index: 10;
+	width: 100%;
+	padding: 10px 0 0 0;
+	margin: 40px 0 0 0;
+	text-align: center;
+}
+
+/*==========================
+Media Queries for larger Screens
+===========================*/
+
 @media (min-width: 842px) {
 
 .FAC {
@@ -135,6 +169,9 @@ h1 {
 		padding-top: 300px;
 	}
 
+	/*==========================
+		 	Main Text Sections
+	===========================*/
 
 	.text-section {
 		background: none;
