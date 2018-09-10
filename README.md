@@ -8,6 +8,12 @@ while helping other charities, non-profits and start-ups with projects.
 
 This is my first, published project on GitHub so _be kind to me please!_
 
+## GitHub Pages Site
+
+https://developess.github.io/First-Website/
+
+## About this Project
+
 In this project I've used: 
 * HTML
 * Pure CSS, including Flexbox.
